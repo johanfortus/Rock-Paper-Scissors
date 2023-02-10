@@ -24,10 +24,10 @@ function rockPaperScissors(){
     else if(computerAnswer === 'paper' && question === 'rock'){
         alert(`The computer picked ${computerAnswer}, you LOST`)
     }
-    else if(computerAnswer === 'paper' && question === 'scissors' || 'scissor'){
+    else if(computerAnswer === 'paper' && question === 'scissors'){
         alert(`The computer picked ${computerAnswer}, you WON`)
     }
-    else if(computerAnswer === 'rock' && question === 'scissors' || 'scissor'){
+    else if(computerAnswer === 'rock' && question === 'scissors'){
         alert(`The computer picked ${computerAnswer}, you LOST`)
     }
     else if(computerAnswer === 'rock' && question === 'paper'){
